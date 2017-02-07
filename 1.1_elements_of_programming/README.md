@@ -21,7 +21,7 @@ Use `define` to name things, to identify a variable whose value is a computation
 ```
 (define <name> <value>)
 ```
-_define is a __special form__, an exception to the general evaluation rule_
+_define is a **special form**_, an exception to the general evaluation rule.
 
 __environment__ memory that keeps track of name-object pairs
 
@@ -38,14 +38,15 @@ __procedure definition__ an abstraction technique, to give compound operations a
 (define (square x) (* x x))
 ```
 
+Defining a procedure takes the following format:
 ```
 (define (<name> <formal params>) <body>)
 ```
 
-_<body>_ is an expression that will yield the value of the procedure application when the formal params are replaced by actual arguments.
+`<body>` is an expression that will yield the value of the procedure application when the formal params are replaced by actual arguments.
 
 ## Substitution Model for Procedure Application
-* Evaluate the body o the procedure with each formal parameter replaced by the corresponding argument
+* Evaluate the body to the procedure with each formal parameter replaced by the corresponding argument
 
 __Applicative Order Evaluation__
 
