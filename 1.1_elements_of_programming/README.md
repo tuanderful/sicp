@@ -8,5 +8,5 @@ Mechanisms for combining simple ideas to form more complex ideas
 ## Expressions
 * __Compound expression__ expressions representing values, be combined with expressions representing a primitive procedure
 * __Combinations__ list of expressions within parens
-  (_<operator>_ _<operands>_)
+```(_<operator>_ _<operands>_)```
   
